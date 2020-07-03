@@ -1,169 +1,155 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-	
-	.avatar {
-    width: 30%;
-}
+    .avatar {
+        width: 30%;
+    }
 
-	.skills{
-		width: 100%;
-	}
-.skill-one{
-	margin-right:4%;
-	margin-bottom:5%;
-	width: 48%;
-}
+    .skills {
+        width: 100%;
+    }
+    .skill-one {
+        margin-right: 4%;
+        margin-bottom: 5%;
+        width: 48%;
+    }
 
+    .skill-two {
+        margin-bottom: 5%;
+        margin-right: 0;
+        width: 48%;
+    }
 
-.skill-two{
-	margin-bottom:5%;
-	margin-right:0;
-	width: 48%;
-}
+    .skill-three {
+        margin-right: 4%;
+        margin-bottom: 5%;
+        width: 48%;
+    }
 
+    .skill-four {
+        margin-bottom: 5%;
+        margin-right: 0;
+        width: 48%;
+    }
 
+    .skill-five {
+        margin-bottom: 5%;
+        margin-right: 4%;
+        width: 48%;
+    }
 
-.skill-three{
-	margin-right:4%;
-	margin-bottom:5%;
-	width: 48%;
-}
+    .skill-six {
+        margin-bottom: 5%;
+        width: 48%;
+    }
 
+    .top-section h1 {
+        font-size: 3.5rem;
+        line-height: 2rem;
+    }
 
-.skill-four{
-	margin-bottom:5%;
-	margin-right:0;
-	width: 48%;
-}
+    .top-section p {
+        font-size: 1.5rem;
+    }
 
+    .heading h2 {
+        font-size: 2.5rem;
+    }
 
-.skill-five{
-	margin-bottom:5%;
-	margin-right:4%;
-	width: 48%;
-}
+    .btn.kirim {
+        width: 50%;
+    }
 
-
-.skill-six{
-	margin-bottom:5%;
-	width: 48%;
-}
-
-.top-section h1 {
-    font-size: 3.5rem;
-    line-height: 2rem;
-}
-
-.top-section p {
-    font-size: 1.5rem;
-}
-
-.heading h2{
-	font-size: 2.5rem;
-}
-
-.btn.kirim {
-    width: 50%;
-}
-
-input, textarea {
-    width: 70%;
-}
-  
+    input,
+    textarea {
+        width: 70%;
+    }
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-	
-	.menu-icon {
-  display: block !important;
-	}
-	
-	.avatar {
-    width: 50%;
-	}
-	
-  nav.menu{
-    display:none;
-  }
-  
-  .top-section h1 {
-    font-size: 1.5rem;
-    line-height: 1rem;
-}
+    .menu-icon {
+        display: block !important;
+    }
 
-.top-section p {
-    font-size: 1rem;
-}
+    .avatar {
+        width: 50%;
+    }
 
-.heading h2{
-	font-size: 1.5rem;
-}
+    nav.menu {
+        display: none;
+    }
 
-.btn.kirim {
-    width: 100%;
-}
+    .top-section h1 {
+        font-size: 1.5rem;
+        line-height: 1rem;
+    }
 
-input, textarea {
-    width: 100%;
-}
+    .top-section p {
+        font-size: 1rem;
+    }
 
-.skill-one{
-	margin-right:0%;
-	margin-bottom:5%;
-	width: 100%;
-}
+    .heading h2 {
+        font-size: 1.5rem;
+    }
 
+    .btn.kirim {
+        width: 100%;
+    }
 
-.skill-two{
-	margin-bottom:5%;
-	margin-right:0;
-	width: 100%;
-}
+    input,
+    textarea {
+        width: 100%;
+    }
 
+    .skill-one {
+        margin-right: 0%;
+        margin-bottom: 5%;
+        width: 100%;
+    }
 
+    .skill-two {
+        margin-bottom: 5%;
+        margin-right: 0;
+        width: 100%;
+    }
 
-.skill-three{
-	margin-right:0;
-	margin-bottom:5%;
-	width: 100%;
-}
+    .skill-three {
+        margin-right: 0;
+        margin-bottom: 5%;
+        width: 100%;
+    }
 
+    .skill-four {
+        margin-bottom: 5%;
+        margin-right: 0;
+        width: 100%;
+    }
 
-.skill-four{
-	margin-bottom:5%;
-	margin-right:0;
-	width: 100%;
-}
+    .skill-five {
+        margin-bottom: 5%;
+        margin-right: 0;
+        width: 100%;
+    }
 
+    .skill-six {
+        margin-bottom: 5%;
+        width: 100%;
+    }
 
-.skill-five{
-	margin-bottom:5%;
-	margin-right:0;
-	width: 100%;
-}
+    .flex-list {
+        flex-direction: column;
+    }
 
+    .flex-list p {
+        width: 100%;
+    }
 
-.skill-six{
-	margin-bottom:5%;
-	width: 100%;
-}
+    .footerflex {
+        flex-direction: column;
+    }
 
-.flex-list{
-	flex-direction:column;
-}
-  
-.flex-list p{
-	width:100%;
-}
-
-.footerflex{
-	flex-direction:column;
-}
-
-.footerflex div{
-	width:100%;
-	padding:0;
-}
-
+    .footerflex div {
+        width: 100%;
+        padding: 0;
+    }
 }
